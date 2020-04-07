@@ -19,6 +19,7 @@ A planilha possui quantidade e gráficos sobre: <br>
 -> Quantidade de Visitas <br>
 -> Quantidade de Clientes Atendidos <br>
 -> Quantidade de Cliente Potencial <br>
+-> Quantidade de Cliente Pesquisando <br>
 -> Vendas Efetivadas <br>
 
 
