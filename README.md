@@ -14,5 +14,11 @@ Nessa planilha podemos ter as seguintes informações sobre o cliente: <br>
 -> Tipo de Cliente (Potencial ou Pesquisando) <br>
 -> Histórico (Resumo sobre o Cliente)<br>
 -> Venda (Comprou ou Não Comprou) <br>
+<br>
+A planilha possui quantidade e gráficos sobre:
+-> Quantidade de Visitas <br>
+-> Quantidade de Clientes Atendidos <br>
+-> Quantidade de Cliente Potencial <br>
+-> Vendas Efetivadas <br>
 
 
