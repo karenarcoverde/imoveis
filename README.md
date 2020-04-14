@@ -3,7 +3,7 @@ Projeto Excel (versão 2019)
 <br>
 Planilha feita no Excel para o controle de clientes para um corretor de imóveis. <br>
 <br>
-Objetivo: ter uma informação mais detalhada e mais organizada sobre os clientes. <br>
+Objetivo: ter informações mais detalhadas e mais organizadas sobre os clientes. <br>
 
 Nessa planilha podemos ter as seguintes informações sobre o cliente: <br>
 -> Nome do Cliente <br>
