@@ -3,8 +3,9 @@ Projeto Excel (versão 2019)
 <br>
 
 <br>
+
 ## Objetivo: <br>
-Planilha feita no Excel para o controle de clientes para um corretor de imóveis. Ter informações mais detalhadas e mais organizadas sobre os clientes. <br> <br>
+Planilha feita no Excel para o controle de clientes para um corretor de imóveis, com objetivo de ter informações mais detalhadas e mais organizadas sobre os clientes. <br> <br>
 
 ## Observação: <br>
 Nessa planilha possui Macros que precisam ser habilitadas para poderem ser usadas. Como por exemplo: botões para Inserir Cliente e Excluir Cliente, após não haver mais espaço na tabela. Também possui botão para ir para Análise do Mês e Resultados. Além disso, em Resultados, o usuário pode voltar para cada mês, clicando em Ir para meses, em seguida selecionando o mês desejado. <br>
