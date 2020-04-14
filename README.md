@@ -5,7 +5,7 @@ Planilha feita no Excel para o controle de clientes para um corretor de imóveis
 <br>
 Objetivo: Ter informações mais detalhadas e mais organizadas sobre os clientes. <br>
 
-Nessa planilha podemos ter as seguintes informações sobre o cliente (O usuário pode digitar esses conteúdos na planilha): <br>
+Nessa planilha podemos ter as seguintes informações sobre o cliente (o usuário pode digitar esses conteúdos na planilha): <br>
 -> Nome do Cliente <br>
 -> Data de Atendimento <br>
 -> Email <br>
