@@ -1,7 +1,9 @@
 # imoveis
-Projeto Excel (versão 2019)
+
 <br>
 
+## Versão:
+Microsoft Excel 2019
 <br>
 
 ## Objetivo: <br>
@@ -12,7 +14,8 @@ Nessa planilha possui Macros que precisam ser habilitadas para poderem ser usada
 
 
 ## Como usar: <br>
-Nessa planilha podemos ter as seguintes informações sobre o cliente (o usuário pode digitar esses conteúdos na planilha): <br>
+
+### Nessa planilha podemos ter as seguintes informações sobre o cliente (o usuário pode digitar esses conteúdos na planilha): <br>
 -> Nome do Cliente <br>
 -> Data de Atendimento <br>
 -> Email <br>
@@ -24,7 +27,8 @@ Nessa planilha podemos ter as seguintes informações sobre o cliente (o usuári
 -> Histórico (Resumo sobre o Cliente)<br>
 -> Venda (Comprou ou Não Comprou) <br>
 <br>
-A planilha possui quantidades e gráficos (colunas e pizzas) após o usuário digitar as informações na tabela sobre: <br>
+
+### A planilha possui quantidades e gráficos (colunas e pizzas) após o usuário digitar as informações na tabela sobre: <br>
 -> Quantidade de Visitas <br>
 -> Quantidade de Clientes Atendidos <br>
 -> Quantidade de Cliente Potencial <br>
