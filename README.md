@@ -13,6 +13,7 @@ Planilha feita no Excel para o controle de clientes para um corretor de imóveis
 
 
 ## Avisos importantes: <br>
+Caso não siga essas regras, a planilha não funcionará como deveria: <br>
 Nessa planilha possui Macros que precisam ser habilitadas para poderem ser usadas. Como por exemplo: botões para Inserir Cliente e Excluir Cliente, após não haver mais espaço na tabela. Clique no "Aviso de Seguranç"a no canto superior esquerdo e em "Habilitar Conteúdo".<br>
 É necessário seguir todas as regras desta planilha para os gráficos funcionarem, tais como: Se o imóvel possui a opção Lançamento e Usado, utilize somente essas duas opções. Em visita, se agendou, coloque a data, caso não tenha agendado, deixe em branco o espaço. <br>
 
