@@ -5,12 +5,14 @@
 ## Versão:
 Microsoft Excel 2019
 <br>
+Possui um outro arquivo compatível com Excel 2007 e posteriores, caso não tenha a versão 2019.
+<br>
 
 ## Objetivo: <br>
 Planilha feita no Excel para o controle de clientes para um corretor de imóveis, com objetivo de ter informações mais detalhadas e mais organizadas sobre os clientes. <br> <br>
 
 ## Observação: <br>
-Nessa planilha possui Macros que precisam ser habilitadas para poderem ser usadas. Como por exemplo: botões para Inserir Cliente e Excluir Cliente, após não haver mais espaço na tabela.  <br>
+Nessa planilha possui Macros que precisam ser habilitadas para poderem ser usadas. Como por exemplo: botões para Inserir Cliente e Excluir Cliente, após não haver mais espaço na tabela. Clique no "Aviso de Seguranç"a no canto superior esquerdo e em "Habilitar Conteúdo".<br>
 
 
 ## Como usar: <br>
