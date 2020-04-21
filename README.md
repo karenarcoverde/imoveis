@@ -11,8 +11,10 @@ Possui um outro arquivo compatível com Excel 2007 e posteriores, caso não tenh
 ## Objetivo: <br>
 Planilha feita no Excel para o controle de clientes para um corretor de imóveis, com objetivo de ter informações mais detalhadas e mais organizadas sobre os clientes. <br> <br>
 
-## Observação: <br>
+
+## Avisos importantes: <br>
 Nessa planilha possui Macros que precisam ser habilitadas para poderem ser usadas. Como por exemplo: botões para Inserir Cliente e Excluir Cliente, após não haver mais espaço na tabela. Clique no "Aviso de Seguranç"a no canto superior esquerdo e em "Habilitar Conteúdo".<br>
+É necessário seguir todas as regras desta planilha para os gráficos funcionarem, tais como: Se o imóvel possui a opção Lançamento e Usado, utilize somente essas duas opções. Em visita, se agendou, coloque a data, caso não tenha agendado, deixe em branco o espaço. <br>
 
 
 ## Como usar: <br>
@@ -24,7 +26,7 @@ Nessa planilha possui Macros que precisam ser habilitadas para poderem ser usada
 -> Contato <br>
 -> Origem (Por Facebook, Zap, OLX, etc.) <br>
 -> Visita (Se agendou, coloca a data. Caso não tenha agendado, deixa em branco) <br>
--> Imóvel (Lançamento ou usado) <br>
+-> Imóvel (Lançamento ou Usado) <br>
 -> Tipo de Cliente (Potencial ou Pesquisando) <br>
 -> Histórico (Resumo sobre o Cliente)<br>
 -> Venda (Comprou ou Não Comprou) <br>
