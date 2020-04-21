@@ -5,7 +5,7 @@
 ## Versão:
 Microsoft Excel 2019
 <br>
-Possui um outro arquivo compatível com Excel 2007 e posteriores, caso não tenha a versão 2019.
+Possui um outro arquivo compatível com Excel 2007 e posteriores, caso não tenha a versão 2019 (Clientes_compatibilidade.xlsm).
 <br>
 
 ## Objetivo: <br>
