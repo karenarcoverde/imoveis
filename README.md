@@ -53,5 +53,6 @@ Adicionado: <br>
 
 Retirado: <br>
 -> Linhas nos Gráficos de Coluna <br>
+-> Inserir e Excluir Cliente <br>
 
 
