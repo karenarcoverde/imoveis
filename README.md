@@ -40,4 +40,7 @@ Nessa planilha possui Macros que precisam ser habilitadas para poderem ser usada
 -> Quantidade de Cliente Pesquisando <br>
 -> Vendas Efetivadas <br>
 
+## Versão 2.0: <br>
+<br>
+
 
