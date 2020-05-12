@@ -6,7 +6,7 @@
 Microsoft Excel 2019
 <br>
 Possui um outro arquivo compatível com Excel 2007 e posteriores, caso não tenha a versão 2019 (Clientes_compatibilidade.xlsm e Clientes 2.0.xlsm). <br>
-Possui um arquivo ".frm" para visualizar o código completo do UserForm1 usado para fazer o formulário Clientes 2.0.xlsm.
+Possui um arquivo ".frm" e ".bas" para visualizar o código completo do UserForm1 usado para fazer o formulário Clientes 2.0.xlsm.
 <br>
 
 ## Objetivo: <br>
