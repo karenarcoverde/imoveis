@@ -45,6 +45,7 @@ Nessa planilha possui Macros que precisam ser habilitadas para poderem ser usada
 Adicionado: <br>
 -> Menu <br>
 -> Botão Registrar Cliente (com um Formulário) <br>
+-> Botão Excluir Cliente (com um Formulário) <br>
 -> Tipo de Cliente: Frio <br>
 -> Característica do Imóvel (Se for Lançamento: Digite o Nome do Empreendimento, se for Usado: Digite o Bairro e Endereço) <br>
 -> Quantidade de Clientes Frios no Análise Mês <br>
