@@ -5,7 +5,8 @@
 ## Versão:
 Microsoft Excel 2019
 <br>
-Possui um outro arquivo compatível com Excel 2007 e posteriores, caso não tenha a versão 2019 (Clientes_compatibilidade.xlsm).
+Possui um outro arquivo compatível com Excel 2007 e posteriores, caso não tenha a versão 2019 (Clientes_compatibilidade.xlsm e Clientes 2.0.xlsm). <br>
+Possui um arquivo ".frm" para visualizar o código completo do UserForm1 usado para fazer o formulário Clientes 2.0.xlsm.
 <br>
 
 ## Objetivo: <br>
@@ -41,6 +42,16 @@ Nessa planilha possui Macros que precisam ser habilitadas para poderem ser usada
 -> Vendas Efetivadas <br>
 
 ## Versão 2.0: <br>
-<br>
+Adicionado: <br>
+-> Menu <br>
+-> Botão Registrar Cliente (com um Formulário) <br>
+-> Tipo de Cliente: Frio <br>
+-> Característica do Imóvel (Se for Lançamento: Digite o Nome do Empreendimento, se for Usado: Digite o Bairro e Endereço) <br>
+-> Quantidade de Clientes Frios no Análise Mês <br>
+-> Quantidade Total de Cliente Frio no Gráfico de Pizza <br>
+-> Quantidade de Cliente Frio por Mês em um Gráfico de Coluna <br>
+
+Retirado: <br>
+-> Linhas nos Gráficos de Coluna <br>
 
 
