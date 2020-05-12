@@ -209,6 +209,12 @@ Private Sub UserForm_Initialize()
     UserForm1.Frame2.Visible = False
     UserForm1.Frame3.Visible = False
     
+    MultiPage2.Style = 1
+    MultiPage2.ForeColor = &H8000&
+    MultiPage2.BackColor = &HFFFFFF
+    MultiPage2.Font.Bold = True
+    
+    
     
     Label8.Caption = "Quantidade de caracteres: "
     
