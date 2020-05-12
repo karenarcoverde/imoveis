@@ -111,95 +111,108 @@ Private Sub TextBox7_change()
 End Sub
 
 Private Sub CommandButton1_Click()
+    
     If Len(TextBox7.Text) > 66 Then
         MsgBox "Ultrapassa 66 Caracteres!", vbCritical, "HISTÓRICO"
         TextBox7.SelStart = 0
         TextBox7.SelLength = TextBox7.TextLength
+    
+    Else
+        MsgBox ("Cliente " & UserForm1.TextBox1.Value & " registrado(a) com sucesso!")
     End If
     
      Dim objeto As Control
 
     Call Registrar
-
-    UserForm1.Hide
     
-    For Each objeto In UserForm1.Controls
-        On Error Resume Next
-        objeto.Value = ""
-    Next
-
+    If Len(TextBox7.Text) < 66 Then
+        For Each objeto In UserForm1.Controls
+            On Error Resume Next
+            objeto.Value = ""
+        Next
+        
+        Unload UserForm1
+        UserForm1.Hide
+    End If
+    
+    
 End Sub
 
 
 
 Sub Registrar()
+    If Len(TextBox7.Text) < 66 Then
+        Dim range1 As Range
     
-    Dim range1 As Range
+        If Range("B10").Value = "" Then
+            Set range1 = Range("B10")
+        Else
+            Set range1 = Range("B9").End(xlDown).Offset(1, 0)
+        End If
     
-    If Range("B10").Value = "" Then
-        Set range1 = Range("B10")
-    Else
-        Set range1 = Range("B9").End(xlDown).Offset(1, 0)
+    
+    
+        range1.Value = UserForm1.TextBox1.Value
+        range1.Offset(0, 1).Value = CDate(UserForm1.TextBox2.Value)
+        range1.Offset(0, 2).Value = UserForm1.TextBox3.Value
+        range1.Offset(0, 3).Value = UserForm1.TextBox4.Value
+    
+    
+        'página Origem
+        If UserForm1.OptionButton1.Value = True Then
+            range1.Offset(0, 4).Value = "Facebook"
+        ElseIf UserForm1.OptionButton4.Value = True Then
+            range1.Offset(0, 4).Value = "Zap"
+        ElseIf UserForm1.OptionButton5.Value = True Then
+            range1.Offset(0, 4).Value = "OLX"
+        ElseIf UserForm1.OptionButton6.Value = True Then
+            range1.Offset(0, 4).Value = TextBox8.Value
+        End If
+    
+    
+        'página Visita
+        If UserForm1.OptionButton2.Value = True Then
+            range1.Offset(0, 5).Value = CDate(TextBox6.Value)
+        ElseIf UserForm1.OptionButton3.Value = True Then
+            range1.Offset(0, 5).Value = ""
+        End If
+    
+        'página Imóvel
+        If UserForm1.OptionButton7.Value = True Then
+            range1.Offset(0, 6).Value = "Lançamento"
+            range1.Offset(0, 7).Value = "Nome do Empreendimento: " & TextBox9.Value
+        ElseIf UserForm1.OptionButton8.Value = True Then
+            range1.Offset(0, 6).Value = "Usado"
+            range1.Offset(0, 7).Value = TextBox10.Value & " - " & TextBox11.Value
+        End If
+    
+    
+    
+        'página Tipo de Cliente
+        If UserForm1.OptionButton9.Value = True Then
+            range1.Offset(0, 8).Value = "Potencial"
+        ElseIf UserForm1.OptionButton10.Value = True Then
+            range1.Offset(0, 8).Value = "Pesquisando"
+        ElseIf UserForm1.OptionButton13.Value = True Then
+            range1.Offset(0, 8).Value = "Frio"
+        End If
+    
+        'página Histórico
+        range1.Offset(0, 9).Value = UserForm1.TextBox7.Value
+    
+        'página Venda
+        If UserForm1.OptionButton11.Value = True Then
+            range1.Offset(0, 10).Value = "Comprou"
+        ElseIf UserForm1.OptionButton12.Value = True Then
+            range1.Offset(0, 10).Value = "Não comprou"
+        End If
+    
     End If
     
-    
-    
-    range1.Value = UserForm1.TextBox1.Value
-    range1.Offset(0, 1).Value = CDate(UserForm1.TextBox2.Value)
-    range1.Offset(0, 2).Value = UserForm1.TextBox3.Value
-    range1.Offset(0, 3).Value = UserForm1.TextBox4.Value
-    
-    
-    'página Origem
-    If UserForm1.OptionButton1.Value = True Then
-        range1.Offset(0, 4).Value = "Facebook"
-    ElseIf UserForm1.OptionButton4.Value = True Then
-        range1.Offset(0, 4).Value = "Zap"
-    ElseIf UserForm1.OptionButton5.Value = True Then
-        range1.Offset(0, 4).Value = "OLX"
-    ElseIf UserForm1.OptionButton6.Value = True Then
-        range1.Offset(0, 4).Value = TextBox8.Value
-    End If
-    
-    
-    'página Visita
-    If UserForm1.OptionButton2.Value = True Then
-        range1.Offset(0, 5).Value = CDate(TextBox6.Value)
-    ElseIf UserForm1.OptionButton3.Value = True Then
-        range1.Offset(0, 5).Value = ""
-    End If
-    
-    'página Imóvel
-    If UserForm1.OptionButton7.Value = True Then
-        range1.Offset(0, 6).Value = "Lançamento"
-        range1.Offset(0, 7).Value = "Nome do Empreendimento: " & TextBox9.Value
-    ElseIf UserForm1.OptionButton8.Value = True Then
-        range1.Offset(0, 6).Value = "Usado"
-        range1.Offset(0, 7).Value = TextBox10.Value & " - " & TextBox11.Value
-    End If
-    
-    
-    
-    'página Tipo de Cliente
-    If UserForm1.OptionButton9.Value = True Then
-        range1.Offset(0, 8).Value = "Potencial"
-    ElseIf UserForm1.OptionButton10.Value = True Then
-        range1.Offset(0, 8).Value = "Pesquisando"
-    ElseIf UserForm1.OptionButton13.Value = True Then
-        range1.Offset(0, 8).Value = "Frio"
-    End If
-    
-    'página Histórico
-    range1.Offset(0, 9).Value = UserForm1.TextBox7.Value
-    
-    'página Venda
-    If UserForm1.OptionButton11.Value = True Then
-        range1.Offset(0, 10).Value = "Comprou"
-    ElseIf UserForm1.OptionButton12.Value = True Then
-        range1.Offset(0, 10).Value = "Não comprou"
-    End If
     
 End Sub
+
+
 
 
 Private Sub UserForm_Initialize()
