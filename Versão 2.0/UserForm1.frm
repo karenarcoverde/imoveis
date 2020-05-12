@@ -110,7 +110,7 @@ Private Sub TextBox7_change()
 
 End Sub
 
-Private Sub ToggleButton1_Click()
+Private Sub CommandButton1_Click()
     If Len(TextBox7.Text) > 66 Then
         MsgBox "Ultrapassa 66 Caracteres!", vbCritical, "HISTÓRICO"
         TextBox7.SelStart = 0
@@ -210,9 +210,10 @@ Private Sub UserForm_Initialize()
     UserForm1.Frame3.Visible = False
     
     MultiPage2.Style = 1
-    MultiPage2.ForeColor = &H8000&
+    MultiPage2.ForeColor = &H0&
     MultiPage2.BackColor = &HFFFFFF
     MultiPage2.Font.Bold = True
+    
     
     
     
