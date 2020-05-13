@@ -51,6 +51,7 @@ Adicionado: <br>
 -> Quantidade de Clientes Frios no Análise Mês <br>
 -> Quantidade Total de Cliente Frio no Gráfico de Pizza <br>
 -> Quantidade de Cliente Frio por Mês em um Gráfico de Coluna <br>
+-> Gráfico Dinâmico na aba Resultados. <br>
 
 Retirado: <br>
 -> Linhas nos Gráficos de Coluna <br>
